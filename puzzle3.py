@@ -1,0 +1,4 @@
+heightOfTower = int(input("Enter the height of the stacked pair tower: "))
+heightOfChair = int(input("Enter the height of one chair: "))
+noChairLegs = ((heightOfTower / heightOfChair) * 2) * 4
+print("The total number of chair legs in the tower is: "+str(noChairLegs))
